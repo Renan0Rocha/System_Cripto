@@ -19,13 +19,496 @@ namespace SystemCripto
 
             for (int i = 0; i < Convert.ToInt32(txtMensagem.Text.Length); i++)
             {
-               
-                if(txtMensagem.Text.Substring(i, 1) == "a")
+                if (txtMensagem.Text.Substring(i, 1) == " ")
+                {
+                    criptado = "!";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+
+                if (txtMensagem.Text.Substring(i, 1) == "a")
                 {
                     criptado = "T";
                     txtCriptografia.Text = txtCriptografia.Text + criptado;
                 }
+                if (txtMensagem.Text.Substring(i, 1) == "b")
+                {
+                    criptado = "h";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "c")
+                {
+                    criptado = "o";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "d")
+                {
+                    criptado = "U";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "e")
+                {
+                    criptado = "ç";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "f")
+                {
+                    criptado = "L";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "g")
+                {
+                    criptado = "y";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "h")
+                {
+                    criptado = "R";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "i")
+                {
+                    criptado = "7";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "j")
+                {
+                    criptado = "w";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "k")
+                {
+                    criptado = "A";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "l")
+                {
+                    criptado = "Q";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "m")
+                {
+                    criptado = "k";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "n")
+                {
+                    criptado = "8";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "o")
+                {
+                    criptado = "6";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "p")
+                {
+                    criptado = "i";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "q")
+                {
+                    criptado = "e";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "r")
+                {
+                    criptado = "v";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "s")
+                {
+                    criptado = "D";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "t")
+                {
+                    criptado = "m";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "u")
+                {
+                    criptado = "X";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "v")
+                {
+                    criptado = "P";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "w")
+                {
+                    criptado = "b";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "x")
+                {
+                    criptado = "f";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "y")
+                {
+                    criptado = "j";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "z")
+                {
+                    criptado = "/";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
 
+                if (txtMensagem.Text.Substring(i, 1) == "A")
+                {
+                    criptado = "t";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "B")
+                {
+                    criptado = "H";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "C")
+                {
+                    criptado = "O";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "D")
+                {
+                    criptado = "u";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "E")
+                {
+                    criptado = "Ç";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "F")
+                {
+                    criptado = "l";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "G")
+                {
+                    criptado = "Y";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "H")
+                {
+                    criptado = "r";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "I")
+                {
+                    criptado = "]";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "J")
+                {
+                    criptado = "W";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "K")
+                {
+                    criptado = "a";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "L")
+                {
+                    criptado = "q";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "M")
+                {
+                    criptado = "K";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "N")
+                {
+                    criptado = "=";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "O")
+                {
+                    criptado = ")";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "P")
+                {
+                    criptado = "I";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Q")
+                {
+                    criptado = "E";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "R")
+                {
+                    criptado = "V";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "S")
+                {
+                    criptado = "d";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "T")
+                {
+                    criptado = "M";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "U")
+                {
+                    criptado = "x";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "V")
+                {
+                    criptado = "P";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "W")
+                {
+                    criptado = "B";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "X")
+                {
+                    criptado = "F";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Y")
+                {
+                    criptado = "J";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Z")
+                {
+                    criptado = ">";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+
+                if (txtMensagem.Text.Substring(i, 1) == "0")
+                {
+                    criptado = "+";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "1")
+                {
+                    criptado = "3";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "2")
+                {
+                    criptado = "#";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "3")
+                {
+                    criptado = "*";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "4")
+                {
+                    criptado = "9";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "5")
+                {
+                    criptado = "&";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "6")
+                {
+                    criptado = ",";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "7")
+                {
+                    criptado = "c";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "8")
+                {
+                    criptado = "g";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "9")
+                {
+                    criptado = "@";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+
+                if (txtMensagem.Text.Substring(i, 1) == "!")
+                {
+                    criptado = "$";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "?")
+                {
+                    criptado = "Ó";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == ".")
+                {
+                    criptado = "n";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "'")
+                {
+                    criptado = "0";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "+")
+                {
+                    criptado = "Ú";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "-")
+                {
+                    criptado = "Í";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == ",")
+                {
+                    criptado = "?";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "=")
+                {
+                    criptado = "N";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == ")")
+                {
+                    criptado = "Ê";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "/")
+                {
+                    criptado = "á";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == ">")
+                {
+                    criptado = "÷";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "{")
+                {
+                    criptado = "ã";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "}")
+                {
+                    criptado = "õ";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "-")
+                {
+                    criptado = "ú";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "<")
+                {
+                    criptado = "Á";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "^")
+                {
+                    criptado = "é";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+
+                if (txtMensagem.Text.Substring(i, 1) == "ã")
+                {
+                    criptado = "{";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "õ")
+                {
+                    criptado = "}";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "á")
+                {
+                    criptado = "/";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "é")
+                {
+                    criptado = "^";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "ó")
+                {
+                    criptado = "1";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "í")
+                {
+                    criptado = "4";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "ê")
+                {
+                    criptado = "5";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "ô")
+                {
+                    criptado = "z";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "ú")
+                {
+                    criptado = "-";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Ã")
+                {
+                    criptado = "í";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Õ")
+                {
+                    criptado = "ê";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Á")
+                {
+                    criptado = "<";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "É")
+                {
+                    criptado = "C";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Ó")
+                {
+                    criptado = "2";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Í")
+                {
+                    criptado = "%";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Ê")
+                {
+                    criptado = "O";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Ô")
+                {
+                    criptado = "Z";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
+                if (txtMensagem.Text.Substring(i, 1) == "Ú")
+                {
+                    criptado = "s";
+                    txtCriptografia.Text = txtCriptografia.Text + criptado;
+                }
             }
         }
 

@@ -21,3 +21,26 @@ C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\
 C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\SystemCripto.exe
 C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\SystemCripto.pdb
 C:\Users\renan\OneDrive\Documentos\IFRO 2022\Redes de Computadores\SystemCripto\obj\Debug\App.baml
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\SystemCripto.exe.config
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\SystemCripto.exe
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\SystemCripto.pdb
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\MaterialDesignColors.dll
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\MaterialDesignColors.pdb
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.csproj.AssemblyReference.cache
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.csproj.SuggestedBindingRedirects.cache
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\MainWindow.g.cs
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\App.g.cs
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto_MarkupCompile.cache
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto_MarkupCompile.lref
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\App.baml
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\MainWindow.baml
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.g.resources
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.Properties.Resources.resources
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.csproj.GenerateResource.cache
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.csproj.CoreCompileInputs.cache
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.csproj.CopyComplete
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.exe
+D:\IFRO\Materias\Redes de Computadores\System_Cripto\obj\Debug\SystemCripto.pdb
