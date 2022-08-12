@@ -436,6 +436,11 @@ namespace SystemCripto
                         criptado = "|";
                         txtCriptografia.Text = txtCriptografia.Text + criptado;
                     }
+                    if (txtMensagem.Text.Substring(i, 1) == "$")
+                    {
+                        criptado = "ï";
+                        txtCriptografia.Text = txtCriptografia.Text + criptado;
+                    }
                     if (txtMensagem.Text.Substring(i, 1) == "ã")
                     {
                         criptado = "{";
@@ -956,6 +961,11 @@ namespace SystemCripto
                 if (txtCriptografia.Text.Substring(i, 1) == "Û")
                 {
                     criptado = "#";
+                    txtMensagem.Text = txtMensagem.Text + criptado;
+                }
+                if (txtCriptografia.Text.Substring(i, 1) == "ï")
+                {
+                    criptado = "$";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
                 if (txtCriptografia.Text.Substring(i, 1) == "{")
