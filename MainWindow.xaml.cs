@@ -152,7 +152,7 @@ namespace SystemCripto
                 }
                 if (txtMensagem.Text.Substring(i, 1) == "z")
                 {
-                    criptado = "/";
+                    criptado = "ú";
                     txtCriptografia.Text = txtCriptografia.Text + criptado;
                 }
 
@@ -641,7 +641,7 @@ namespace SystemCripto
                     criptado = "y";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
-                if (txtCriptografia.Text.Substring(i, 1) == "/")
+                if (txtCriptografia.Text.Substring(i, 1) == "ú")
                 {
                     criptado = "z";
                     txtMensagem.Text = txtMensagem.Text + criptado;
@@ -901,11 +901,6 @@ namespace SystemCripto
                     criptado = "^";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
-                if (txtCriptografia.Text.Substring(i, 1) == "ú")
-                {
-                    criptado = "-";
-                    txtMensagem.Text = txtMensagem.Text + criptado;
-                }
                 if (txtCriptografia.Text.Substring(i, 1) == "Á")
                 {
                     criptado = "<";
@@ -1005,6 +1000,11 @@ namespace SystemCripto
                 if (txtCriptografia.Text.Substring(i, 1) == "Ô")
                 {
                     criptado = "À";
+                    txtMensagem.Text = txtMensagem.Text + criptado;
+                }
+                if (txtCriptografia.Text.Substring(i, 1) == "á")
+                {
+                    criptado = "/";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
             }
