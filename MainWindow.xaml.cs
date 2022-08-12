@@ -132,7 +132,7 @@ namespace SystemCripto
                 }
                 if (txtMensagem.Text.Substring(i, 1) == "v")
                 {
-                    criptado = "P";
+                    criptado = "p";
                     txtCriptografia.Text = txtCriptografia.Text + criptado;
                 }
                 if (txtMensagem.Text.Substring(i, 1) == "w")
