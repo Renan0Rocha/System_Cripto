@@ -509,7 +509,9 @@ namespace SystemCripto
                     criptado = "s";
                     txtCriptografia.Text = txtCriptografia.Text + criptado;
                 }
+
             }
+            txtMensagem.Clear();
         }
 
         private void btDescriptografar_Click(object sender, RoutedEventArgs e)
@@ -829,9 +831,9 @@ namespace SystemCripto
                     criptado = "9";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
-                if (txtCriptografia.Text.Substring(i, 1) == " ")
+                if (txtCriptografia.Text.Substring(i, 1) == "!")
                 {
-                    criptado = "!";
+                    criptado = " ";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
                 if (txtCriptografia.Text.Substring(i, 1) == "$")
@@ -1014,8 +1016,8 @@ namespace SystemCripto
                     criptado = "À";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
-
             }
+            txtCriptografia.Clear();
         }
     }
 }
