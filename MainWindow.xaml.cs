@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Alunos: Renan da Rocha Santos - Rafael Felipe de Oliveira Aguiar
+using System;
 using System.Windows;
 
 namespace SystemCripto
