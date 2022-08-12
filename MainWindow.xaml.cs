@@ -496,7 +496,7 @@ namespace SystemCripto
                 }
                 if (txtMensagem.Text.Substring(i, 1) == "Ê")
                 {
-                    criptado = "O";
+                    criptado = "Ô";
                     txtCriptografia.Text = txtCriptografia.Text + criptado;
                 }
                 if (txtMensagem.Text.Substring(i, 1) == "Ô")
@@ -996,7 +996,7 @@ namespace SystemCripto
                     criptado = "Í";
                     txtMensagem.Text = txtMensagem.Text + criptado;
                 }
-                if (txtCriptografia.Text.Substring(i, 1) == "O")
+                if (txtCriptografia.Text.Substring(i, 1) == "Ô")
                 {
                     criptado = "Ê";
                     txtMensagem.Text = txtMensagem.Text + criptado;
